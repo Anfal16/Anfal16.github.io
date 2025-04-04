@@ -5,7 +5,12 @@ body{
 }
 #main-header{
     color: #56423B;
-    font: bolder;
+    font: x-large;
     text-align: center;
+}
 
+.headers{
+    font-family: 'Times New Roman', Times, serif;
+    color: #56423B;
+    font-size: large;
 }
