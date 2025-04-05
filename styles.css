@@ -5,7 +5,7 @@ body{
 }
 #main-header{
     color: #56423B;
-    font: x-large;
+    font: 450px;
     text-align: center;
 }
 
@@ -13,4 +13,30 @@ body{
     font-family: 'Times New Roman', Times, serif;
     color: #56423B;
     font-size: large;
+    padding-right: 0px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+a:link, a:visited{
+    display: block;
+    font-weight: bold;
+    color: #FDF9F8;
+    background-color: #56423B;
+    width: 120px;
+    text-align: center;
+    padding: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+a:hover, a:active{
+    background-color: #FDF9F8;
+}
+li{
+    float: left;
 }
