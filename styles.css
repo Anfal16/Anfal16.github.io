@@ -81,5 +81,12 @@ h3 {
     background-color: #56423B;
     padding: 10px;
     display: inline-block;
-    
+  }
+
+  p {
+    color: #56423B;
+    text-align: left;
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
