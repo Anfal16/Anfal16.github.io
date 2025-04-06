@@ -54,3 +54,19 @@ h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
 }
+
+.bridal {
+    display: flex;
+    gap: 20px; /* spacing between images */
+    justify-content: left;
+    padding: 20px;
+  }
+  
+  /* Styling each image */
+  .bridal img {
+    height: 300px;
+    width: 200px; /* or auto */
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+  }
