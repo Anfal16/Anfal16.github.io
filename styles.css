@@ -1,14 +1,17 @@
+/*Setting up the main layout and background colors*/
 body{
     background-color: #FFF8F6;
-    font-family: 'Times New Roman', Times, serif;
-        
+    font-family: 'Times New Roman', Times, serif;   
 }
+
+/*Styling the main header*/
 #main-header{
     color: #56423B;
     font: 450px;
     text-align: center;
 }
 
+/*Styling all the headers across all pages*/
 .headers{
     font-family: 'Times New Roman', Times, serif;
     color: #56423B;
@@ -16,6 +19,7 @@ body{
     padding-right: 0px;
 }
 
+/*Styling the nav bar*/
 ul{
     list-style-type: none;
     margin: 0;
@@ -41,12 +45,14 @@ li{
     float: left;
 }
 
+/*styling all the H1s*/
 h1{
     color:  #56423B;
     text-align: center;
     text-decoration: none;
 }
 
+/*Styling all the H2s*/
 h2{
     color: #FDF9F8;
     text-align: left;
@@ -55,6 +61,7 @@ h2{
     font-size: large;
 }
 
+/*Styling all the H3s*/
 h3 {
     color: #FDF9F8;
     text-align: left;
@@ -62,6 +69,7 @@ h3 {
     font-size: large;
 }
 
+/*Gallery images styling*/
 .imgs {
     display: flex;
     gap: 20px; 
@@ -77,12 +85,14 @@ h3 {
     display: block;
   }
 
+  /*Decorative container (used behind subheadings)*/
   .bg {
     background-color: #56423B;
     padding: 10px;
     display: inline-block;
   }
 
+  /*styling the paragraphs*/
   p {
     color: #56423B;
     text-align: left;
