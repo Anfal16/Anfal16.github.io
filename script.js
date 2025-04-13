@@ -7,4 +7,9 @@ hoverBtn.onmouseover = function () {
     hoverBtn.style.backgroundColor = "#56423B";
 
 };
+
+hoverBtn.onmouseleave = function () {
+    hoverBtn.style.backgroundColor = "#C3B4AE";
+
+};
     
