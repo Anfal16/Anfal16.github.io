@@ -25,4 +25,11 @@ document.getElementById('buttonCounter').onclick = function () {
         counter.style.color = "red";
     }
 };
+
+let loopText = "";
+for (let i = 0; i < 4; i++) {
+    loopText += "Book your henna appointement now!!";
+
+}
+document.getElementById('loopContainer').textContent = loopText;
     
