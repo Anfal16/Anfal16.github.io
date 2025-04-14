@@ -12,4 +12,17 @@ hoverBtn.onmouseleave = function () {
     hoverBtn.style.backgroundColor = "#C3B4AE";
 
 };
+
+let count = 0;
+document.getElementById('buttonCounter').onclick = function () {
+    count++;
+    let counter = document.getElementById('counter');
+    counter.textContent = count;
+
+    if (count % 2 === 0) {
+        counter.style.color = "pink"
+    } else {
+        counter.style.color = "red";
+    }
+};
     
