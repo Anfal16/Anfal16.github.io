@@ -20,16 +20,17 @@ document.getElementById('buttonCounter').onclick = function () {
     counter.textContent = count;
 
     if (count % 2 === 0) {
-        counter.style.color = "pink"
+        counter.style.color = "green"
     } else {
         counter.style.color = "red";
     }
 };
 
+document.getElementById('loopButton').onclick = function () {
 let loopText = "";
 for (let i = 0; i < 4; i++) {
     loopText += "Book your henna appointement now!!";
 
 }
 document.getElementById('loopContainer').textContent = loopText;
-    
+};
