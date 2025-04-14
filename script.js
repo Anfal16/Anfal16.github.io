@@ -27,10 +27,9 @@ document.getElementById('buttonCounter').onclick = function () {
 };
 
 document.getElementById('loopButton').onclick = function () {
-let loopText = "";
-for (let i = 0; i < 4; i++) {
-    loopText += "Book your henna appointement now!!";
-
-}
-document.getElementById('loopContainer').textContent = loopText;
-};
+    let loopText = "";
+    for (let i = 0; i < 5; i++) {
+      loopText += "Book your appointment now!";
+    }
+    document.getElementById('loopContainer').textContent = loopText;
+  };
